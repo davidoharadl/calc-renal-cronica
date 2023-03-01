@@ -1,0 +1,12 @@
+.main-bar {
+    width: 100%;
+    height: .3rem;
+}
+
+.main-bar.-light {
+    display: block;
+    background-color: var(--light-color);
+    margin-bottom: 5.6rem;
+    position: relative;
+    top: 4.2rem
+}
