@@ -6,8 +6,6 @@
     line-height: 4.8rem;
     text-align: center;
     margin: auto 0;
-    /* text-shadow: 5px -3px 0 var(--light-color); */
     text-transform: uppercase;
-    border: 15px solid #FFFFFF;
-    text-shadow: 0px 4px 18px #000000;
+    text-shadow: 0px 4px 18px var(--font-color);
 }
