@@ -3,5 +3,7 @@
 :root {
     --main-color: #7FFF7F;
     --font-color: #000;
+    --light-color: #fff;
     --main-font: 'Inter', sans-serif;
+    font-size: 62.5%;
 }
