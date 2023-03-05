@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./css/components/main-title.css">
     <link rel="stylesheet" href="./css/components/main-form.css">
     <link rel="stylesheet" href="./css/components/main-label.css">
+    <link rel="stylesheet" href="./css/components/main-input.css">
 </head>
 <body>
     <header class="header-page">
@@ -25,12 +26,15 @@
     <main class="main-page">
         <span class="main-bar -green"></span>
         <section class="main-form">
-            <label for="name" class="main-label">Name:</label>
+            <label for="name" class="main-label -overlap">Name:</label>
             <input id="name" type="text" class="main-input">
-            <label for="age" class="main-label">Idade:</label>
-            <input id="age" type="number" class="main-input">
-            <label for="sexo" class="main-label">Sexo:</label>
-            <input id="sexo" type="text" class="main-input">
+            <label for="age" class="main-label -overlap">Idade:</label>
+            <input id="age" type="number" class="main-input -small">
+            <label for="sexo" class="main-label -overlap-select">Sexo:</label>
+            <select name="sexo" class="main-input -small">
+                <option value="M" selected>M</option>
+                <option value="F">F</option>
+            </select>
         </section>
     </main>
 </body>

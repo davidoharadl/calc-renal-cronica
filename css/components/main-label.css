@@ -8,3 +8,13 @@
     font-style: italic;
     font-size: 2rem;
 }
+
+.main-label.-overlap {
+    position: relative;
+    left: 4rem;
+}
+
+.main-label.-overlap-select {
+    position: relative;
+    left: 3rem;
+}
