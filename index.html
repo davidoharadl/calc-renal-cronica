@@ -15,12 +15,14 @@
     <link rel="stylesheet" href="./css/components/main-form.css">
     <link rel="stylesheet" href="./css/components/main-label.css">
     <link rel="stylesheet" href="./css/components/main-input.css">
+    <link rel="stylesheet" href="./css/components/main-measurements.css">
+    <link rel="stylesheet" href="./css/components/second-label.css">
 </head>
 <body>
     <header class="header-page">
         <span class="main-bar -light"></span>
         <div class="wrapper">
-            <h1 class="main-title">Avaliação Nutricional na doença renal crônica</h1>
+            <img src="./assets/imgs/logo.png" alt="Logo">
         </div>
     </header>
     <main class="main-page">
@@ -35,6 +37,22 @@
                 <option value="M" selected>M</option>
                 <option value="F">F</option>
             </select>
+        </section>
+        <section class="main-measurements">
+            <div class="wrapper">
+                <label for="" class="second-label">Peso seco (kg):</label>
+                <input type="text" class="main-input -super-small">
+                <span class="main-bar -green"></span>
+                <label for="" class="second-label">Altura (cm):</label>
+                <input type="text" class="main-input -super-small">
+            </div>
+            <div class="wrapper">
+                <label for="" class="second-label">Circunferência do Braço - CB (cm):</label>
+                <input type="text" class="main-input -super-small">
+                <span class="main-bar -green"></span>
+                <label for="" class="second-label">Dobra Cutânea Tricipital - DCT (mm):</label>
+                <input type="text" class="main-input -super-small">
+            </div>
         </section>
     </main>
 </body>

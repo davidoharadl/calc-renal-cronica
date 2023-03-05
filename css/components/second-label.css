@@ -1,0 +1,6 @@
+.second-label {
+    font-size: 2rem;
+    font-style: italic;
+    color: var(--font-color);
+    margin-right: 1.25rem;
+}
