@@ -1,0 +1,10 @@
+.main-label {
+    background-color: var(--main-color);
+    color: var(--font-color);
+    padding: 1.2rem 4.4rem;
+    border-radius: 2rem;
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-style: italic;
+    font-size: 2rem;
+}
